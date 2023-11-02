@@ -6,6 +6,7 @@
 
   async function greet() {
     greetMsg = await invoke('greet', { name })
+    console.log(greetMsg)
   }
 </script>
 
